@@ -1,7 +1,5 @@
 package practice;
 
-import java.util.Scanner;
-
 public class changeValue {
     public static void main(String[] args) {
         int a = 10;
