@@ -12,7 +12,5 @@ public class changeValue {
 
         System.out.println("a값: "+ a);
         System.out.println("b값: "+ b);
-
-
     }
 }
