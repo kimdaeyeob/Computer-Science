@@ -1,0 +1,7 @@
+a = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90]
+a[:7:2]
+
+print(a[:7:2])  # Output: [0, 20, 40, 60]
+
+
+# python slicing syntax: list[start:stop:step]
