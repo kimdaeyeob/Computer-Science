@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 총 4개의 요청 발생
+     - 1개의 HTML 파일 요청
+     - 3개의 이미지 파일 요청
+     - HTML 파일이 먼저 요청되고, 그 다음에 이미지 파일들이 요청됨
+     - HTML 파일이 먼저 로드되고, 그 안에서 이미지 파일들이 로드되는 순서로 진행됨
+     - 브라우저가 HTML 파일을 파싱하면서 이미지 태그를 발견하고, 그때마다 이미지 파일들을 요청하는 방식으로 작동함
+     - 따라서, HTML 파일이 먼저 요청되고, 그 다음에 이미지 파일들이 요청되는 순서로 진행됨
+     - 브라우저가 HTML 파일을 파싱하면서 이미지 태그를 발견하고, 그때마다 이미지 파일들을 요청하는 방식으로 작동함 -->
+    <h1>Home HTML</h1>
+    <img src="first.png" alt="first" />
+    <img src="second.png" alt="second" />
+    <img src="third.png" alt="third" />
+  </body>
+</html>
